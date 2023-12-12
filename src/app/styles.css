@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.wrapper {
+  margin-top: 100px;
+  height: 320px;
+  width: 100%;
+  font-family: "Poppins";
+
+  overflow-x: hidden;
+ 
+}

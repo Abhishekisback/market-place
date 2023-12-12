@@ -1,0 +1,129 @@
+.slick-slide > div {
+  margin: 0 30px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  height: 238px;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 220px;
+  font-style: normal;
+  font-weight: 600;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.slick-slide {
+  height: 320px;
+}
+.slick-slider {
+  height: 320px;
+}
+
+.slick-slide img {
+  display: inline;
+}
+
+.text-wrapper {
+  margin: auto;
+  width: 120px;
+}
+.text {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .slick-slide > div {
+    margin-left: 30px;
+    margin-right: 40px;
+    width: 200px;
+    height: 200px;
+  }
+  .slick-slide {
+    height: fit-content;
+    height: 240px;
+  }
+  .text {
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 16px;
+  }
+  .text-wrapper {
+    width: 100px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slick-slide > div {
+    margin-left: 20px;
+    margin-right: 40px;
+    width: 150px;
+    height: 150px;
+  }
+  .slick-slider {
+    height: fit-content;
+  }
+  .slick-slide {
+    height: 180px;
+  }
+  .Img {
+    width: 40px;
+    height: 40px;
+  }
+  .text {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 10px;
+  }
+}
+
+.wrapper2 {
+  width: 100vw;
+  background-color: green;
+  height: fit-content;
+}
+
+.wrapper2 .slick-slide > div {
+  margin: 0 30px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  height: 180px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.wrapper2 .slick-slide {
+  height: 300px;
+}
+.Img2{
+  width: 90%;
+}
+@media screen and (max-width: 768px) {
+  .wrapper2 .slick-slide > div {
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 165px;
+    height: 180px;
+  }
+  .slick-slider {
+    height: fit-content;
+  }
+  .Img2 {
+    width: 130px;
+  }
+  .wrapper2 {
+    width: 100%;
+  }
+}

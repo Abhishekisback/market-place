@@ -132,7 +132,7 @@ export default function SimpleSlider() {
       <Slider {...settings}>
         {list.map((ele, i) => {
           return (
-            <div>
+            <div key={i}>
               <Image src={ele.url}
               className="Img"
               width={54} height={54} alt="feat-img" />
@@ -148,7 +148,7 @@ export default function SimpleSlider() {
       <Slider {...settings2}>
         {data.map((ele, i) => {
           return (
-            <div >
+            <div key={i}>
               <Image src={ele.imgUrl}
               className="Img2"
               width={200} height={120} alt="feat-img" />
